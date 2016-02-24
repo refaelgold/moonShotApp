@@ -1,11 +1,11 @@
-### This is a Ionic 2 tutorial example made for http://www.gajotres.net/ionic-2-tutorial-lets-create-our-first-application/
+### This is an App who take Python REST Question from http://murmuring-reef-56934.heroku.com/ that you can find in https://github.com/refaelgold/moonShot
 
 Follow these instruction to deploy this example:
 
-1. git clone https://github.com/Gajotres/Ionic2FirstApp.git
-2. cd Ionic2FirstApp
-3. ionic platform add android
+1. git clone https://github.com/refaelgold/moonShotApp.git
+2. cd moonShotApp
+3. ionic platform add ios
 4. cordova plugin add cordova-plugin-whitelist
 5. npm install
-6. ionic serve -> To see if everything is working as it should
-7. ionic run android -l -c -s
+6. ionic serve
+7. ionic emulate ios
