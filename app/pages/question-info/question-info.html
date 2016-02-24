@@ -1,0 +1,18 @@
+<ion-navbar *navbar>
+  <ion-title>Question Details</ion-title>
+</ion-navbar>
+
+<ion-content>
+  <div *ngIf="question" class="selection">
+    <ion-card>
+      <ion-item>
+        <ion-item-content class="question-title-data">
+          <h1>{{question.title}}</h1>
+          <p>{{question.description}}</p>
+          <p>{{question.author}}</p>
+        </ion-item-content>
+      </ion-item>
+
+    </ion-card>
+  </div>
+</ion-content>

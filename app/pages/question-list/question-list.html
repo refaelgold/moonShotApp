@@ -1,0 +1,13 @@
+
+<ion-navbar *navbar>
+  <ion-title>Question List</ion-title>
+</ion-navbar>
+
+<ion-content padding>
+  <ion-list>
+    <ion-item *ngFor="#question of questions" class="width100" (click)="itemTapped($event, question)">
+      <h2>{{question.title}}</h2>
+      <p class="item-description">{{question.description}}</p>
+    </ion-item>
+  </ion-list>
+</ion-content>
